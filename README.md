@@ -14,7 +14,7 @@ With Lifeguard, you can:
 
 ### The Power of the Fear & Greed Index
 
-Lifeguard uses the Crypto Fear & Greed Index (FGI) – a number from 0 to 100 that measures market sentiment:
+Lifeguard uses the Crypto Fear & Greed Index (FGI) – a number from 0 to 100 that traditionally measures market sentiment:
 - **0-25**: Extreme Fear (market is very negative)
 - **26-45**: Fear (market is nervous)
 - **46-55**: Neutral (market is undecided)
@@ -25,10 +25,10 @@ Lifeguard uses the Crypto Fear & Greed Index (FGI) – a number from 0 to 100 th
 
 Through extensive backtesting of market data, Lifeguard has discovered that for SOL, an FGI reading of 42 is the optimal point to change positions:
 
-- **When FGI drops below 42**: Lifeguard buys SOL (when others are fearful)
-- **When FGI rises above 42**: Lifeguard converts SOL to USDC (when others are greedy)
+- **When FGI rises above 42**: Lifeguard buys SOL (when market is greedy)
+- **When FGI falls below 42**: Lifeguard converts SOL to USDC (when market is fearful)
 
-This strategy has historically outperformed simply holding SOL by approximately 59%, turning what would have been losses into significant gains.
+This strategy has historically outperformed simply holding SOL by over 50%, turning what would have been losses into significant gains.
 
 ** NOTE: Lifeguard automatically determines the best midpoint to trade on based on ongoing backtests that happen each time a 4 hour data point is updated by CFGI.io - the numbers in this section are accurate as of April 18, 2025. The most recent data is available at [lifeguard.surfsolana.com](https://lifeguard.surfsolana.com)
 
